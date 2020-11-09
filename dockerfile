@@ -6,6 +6,6 @@ COPY / /usr/src/app/
 
 WORKDIR /usr/src/app
 
-CMD ['node', "/usr/src/app/server.js"]
+CMD ["node", "/usr/src/app/server.js"]
 
 EXPOSE 5000    
